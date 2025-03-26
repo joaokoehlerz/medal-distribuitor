@@ -11,7 +11,7 @@ You can install it using pip: `pip install requests`
 Create a txt file that has all the steamids separated by newlines related to the promoID of the medal you wanna send. Put this txt file in the same folder as the script.
 
 If you have a file named `medals.txt` with the following content:
-<pre> 123456789
+<pre>123456789
 987654321 </pre>
 And you set your `promoID` to `123`, the script will send medals with promoID `123` to the SteamIDs listed in the file (`123456789` and `987654321` in this example).
 
