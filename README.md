@@ -16,3 +16,5 @@ If you have a file named `medals.txt` with the following content:
 And you set your `promoID` to `123`, the script will send medals with promoID `123` to the SteamIDs listed in the file (`123456789` and `987654321` in this example).
 
 Again, make sure each SteamID is on a separate line in the `medals.txt` file.
+
+All steamIDs must be SteamID64.
